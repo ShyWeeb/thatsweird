@@ -1,2 +1,3 @@
 scripts/venv/
-scripts/db.*
+scripts/db.json
+scripts/db.txt
