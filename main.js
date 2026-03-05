@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', function() {
             };
         }
     } else {
-        fetch('http://127.0.0.1:5500/db.txt')
+        fetch('db.txt')
         .then(response => {
             if (!response.ok) {
                 throw new Error('Failed to load video list');
